@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    background-color: gray;
+    min-height: 100vh;
+    padding: 60px;
+}
+.main{
+    background-color: white;
+}
+.slot{
+    height: 550px;
+    background-image: linear-gradient(127deg, rgba(252,252,252,1) 0%,rgba(252,252,252,1) 50%, rgba(251,251,251,0) 76%), url(./assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+nav span{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 30px;
+    cursor: pointer;
+    color: gray;
+}
+nav ul li:hover,:active{
+    color: black;
+}
+nav h1{
+    display: flex;
+    align-items: end;
+}
+nav h1 .yellow{
+    color: rgb(250, 178, 10);
+    font-size: 15px;
+}
+nav button{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(250, 178, 10);
+    font-weight: 700;
+}
+nav button:hover{
+    background-color: rgb(255, 197, 62);
+    border: 1px solid white;
+}
+.name{
+    font-size: 42px;
+    font-weight: 1000;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.slot p{
+    margin-top: 60px;
+    margin-left: 30px;
+    color: gray;
+}
+.rate{
+    display: flex;
+}
+.rate p{
+    color: black;
+   
+}
+.rate i{
+    color: rgb(250, 178, 10);
+}
+.logo{
+    width: 100%;
+    margin-top: -190px;
+    
+}
+.mission{
+    padding: 50px;
+}
+.box{
+    display: flex;
+    padding: 40px;
+}
+.left{
+    width: 40%;
+
+}
+.left h2{
+    font-size: 15px;
+    color: gray;
+}
+.left h1{
+    font-weight: 900;
+    margin: 20px 00px;
+
+}
+.left p{
+    color: gray;
+}
+.right{
+    width: 60%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.card p{
+    color: gray;
+    
+}
+.card i{
+    color: gray;
+}
+.card .yellow{
+    color: rgb(250, 178, 10);
+}
+
+
+
+
+@media(max-width:1000px){
+    nav ul li{
+        display: none;
+    }
+    .box{
+        margin: 0;
+    }
+    .left p{
+        display: none;
+    }
+}
